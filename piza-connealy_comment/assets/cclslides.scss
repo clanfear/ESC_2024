@@ -1,0 +1,105 @@
+/*-- scss:defaults --*/
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700');
+
+$font-family-sans-serif: "EB Garamond", serif !default;
+$font-family-monospace: "Fira Code", courier !default;
+$presentation-heading-font: "EB Garamond", serif !default;
+$presentation-heading-font-weight: 600;
+$presentation-h1-font-size: 2.5em;
+
+// colors
+
+$color-bg-primary: #fff5e5;
+$color-text-primary: #333d4d;
+$color-highlight-primary: #b0514a;
+$color-accent-primary: #da9262;
+
+$color-bg-code: #333d4d;
+$color-text-code: #fff5e5;
+$color-highlight-code: #da9262;
+$color-accent-code: #b0514a;
+
+$color-bg-invert: #b0514a;
+$color-text-invert: #fff5e5;
+$color-highlight-invert: #7eb7cc;
+$color-accent-invert: #326b69;
+
+$color-text-bright: #b0514a;
+$color-bg-bright: #7eb7cc;
+$color-highlight-bright: #4d5d75;
+$color-accent-bright: #fff5e5;
+
+
+$body-bg: $color-bg-primary !default;
+$body-color: $color-text-primary !default;
+$link-color: $color-highlight-primary !default;
+$selection-bg: $color-accent-primary !default;
+
+$code-color: $color-text-primary !default;
+$code-bg: #d1ccc4 !default;
+
+$code-block-bg: #333d4d !default;
+
+$presentation-heading-color: $color-highlight-primary !default;
+$presentation-h1-font-size: 3.77em !default;
+
+/*-- scss:rules --*/
+.reveal table td {
+  border-bottom: none;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+li li { font-size: 80%; }
+
+// lua filter classes for h1 type slides
+.inv-title h1 {
+  color: $color-text-invert !important;
+  background-color: $color-bg-invert;
+}
+.inv-title p {
+  color: $color-text-invert !important;
+  background-color: $color-bg-invert;
+}
+.inv-title code {
+  background-color: $color-bg-invert;
+}
+
+//
+
+#title-slide {
+  .title {
+    font-size: 2em;
+  }
+  .subtitle {
+    font-size: 2em;
+    font-style: italic;
+    color: $color-highlight-primary;
+  }
+}
+
+// Dark slide
+
+.dark-slide {
+  background-color: $color-bg-code !important;
+}
+.dark-slide body {
+  color: $color-text-code !important;
+  background-color: $color-bg-code !important;
+}
+.dark-slide h1,
+.dark-slide h2,
+.dark-slide h3 {
+  color: $color-highlight-code !important;
+  background-color: $color-bg-code !important;
+}
+.dark-slide p {
+  color: $color-text-code !important;
+  background-color: $color-bg-code !important;
+}

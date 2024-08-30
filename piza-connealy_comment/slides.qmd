@@ -1,0 +1,221 @@
+---
+author:
+  - name: Charles C. Lanfear
+    affiliations: University of Cambridge
+title: Reassessing 'The Effect of the Seattle Police-Free CHOP Zone on Crime'
+subtitle: A counterfactual critique
+format:
+  revealjs:
+    theme: assets/cclslides.scss
+    incremental: false
+    self-contained: true
+    width: 1200
+    height: 800
+    auto-stretch: true
+    title-slide-attributes:
+      data-background-image: img/paisley.png
+      data-background-position: bottom
+      data-background-size: contain
+filters: 
+  - assets/invert-h1.lua
+editor: source
+mouse-wheel: true
+history: false
+---
+
+```{r}
+#| label: "setup"
+#| include: false
+library(tidyverse)
+library(showtext)
+library(sf)
+slide_font <- "EB Garamond"
+font_add_google(name = slide_font)
+showtext_auto()
+load("../data/derived/spd_crime_daily.RData")
+```
+
+# Piza & Connealy (2022)
+
+&nbsp;
+
+![](img/pc_cpp.png){width=60%}
+
+## {}
+
+![](img/chop_map.png)
+
+
+## Purpose
+
+Police withdrawal occurring during CHOP supposedly provides a quasi-experiment of what happens when you remove policing from an area
+
+They specifically refer to police abolishment in the paper, implying abolition would result in CHOP-like conditions
+
+## Their strategy
+
+Synthetic control
+
+## Their findings
+
+# Counterfactuals
+
+
+## Potential Outcomes
+
+<br>
+
+![](img/po_basic.svg)
+
+::: {.notes} 
+
+Causal effects are differences between factual outcomes we observe and counterfactual outcomes that we imagine could have happened.
+
+We only observe one of these--the factual outcome--so the main challenge of causal inference is estimating the one we don't observe--the counterfactual
+:::
+
+
+## Ignorability
+
+<br>
+
+![](img/po_ignorability.svg)
+
+::: {.notes}
+We usually do this by substituting observed values from similar units in for the unobserved ones
+
+We can compare different units if their differences are **ignorable**
+
+We do this with *randomization*, *conditioning* on variables, or, in the present case a weighted combination of other cases.
+:::
+
+## What is our counterfactual?
+
+Seems like this is really about Y0A not being what they think it is?
+
+# Piza & Connealy Revisited
+
+## Implicit causal model
+
+
+
+```{dot}
+digraph G{
+  graph [layout=neato, bgcolor="transparent"]
+  node [shape = plaintext, fontname="EB Garamond", fontcolor="#333d4d"]
+  edge [color="#333d4d"]
+  
+  chop [pos = "2,  1!", label = "CHOP Zone"]
+  crime [pos = "3,  0!", label = "Crime"]
+  place [pos = "0,  1!", label = "Measured\nPlace\nCharacteristics"]
+  protest [pos = "1,  0!", label = "Protest"]
+
+  chop -> crime
+  place -> {crime, chop}
+  protest -> {chop, crime} [style="dashed", color="#da9262"]
+}
+```
+
+Assumptions: 
+
+* Primary: *Protest* is independent of *CHOP Zone* and/or *Crime*
+* Secondary: No unmeasured *Place Characteristics* are relevant
+
+## Timeline
+
+![](img/timeline_plot.png)
+
+## Problems
+
+It is not conceivable the police pullout would have occurred absent the large-scale protest and repeat conflicts with police
+
+The police pulled out *because* clashes with police were escalating.
+
+No comparison units had a large-scale protest against police occurring in them; places with similar crime rates leading up to CHOP did not have similar reasons for those crime rates.
+
+> Show chop zone pictures
+
+> Show pictures not during chop
+
+Huge fucking influx of people *prior* to CHOP
+
+## Secondary Issues
+
+* Interference: Protests and police withdrawal caused shifts across city
+
+## What did crime *actually* do after the pullout?
+
+Show trend plots of rapid decline at start, rapid increase at end
+
+Police-reported crime in CHOP zone is in large part due to police activity
+
+This reflects that police left precinct to de-escalate (prevent more contacts) and things re-escalated, briefly, when they returned.
+
+## Pre-Event Trends
+
+Much larger "treatment effect" if we date treatment at start of Cap Hill protests than start of CHOP
+
+## Capitol Hill
+
+![](img/cap-hill.png)
+
+List of measured place characteristics; do these explain cap hill?
+
+History of protests, protests after CHOP
+
+Similar patterns in crime occurred in Capitol Hill absent police withdrawal on July 25th, 2020 due to detention center protest.
+
+This is because Capitol Hill is an unusual area of Seattle with physical and social characteristics that make protests and conflicts with police more likely
+
+## What is the counterfactual?
+
+:::: {.columns}
+::: {.column}
+#### Observed
+
+How many reported crimes occurred after police withdrew to de-escalate conflict with an existing large-scale protest against police
+
+:::
+::: {.column}
+#### Counterfactual
+
+How many reported crimes would have occurred if neither the protest nor the withdrawal occurred
+
+:::
+::::
+
+Critically, the difference between these does not tell us if withdrawing from the East Precinct increased crime
+
+## Summary {.dark-slide}
+
+:::: {.columns}
+
+::: {.column}
+
+Design
+
+* Theory needs to be correct
+* Theory requires contextual understanding
+
+:::
+
+::: {.column}
+
+Substance
+
+* Estimate does not correspond to any useful estimand
+* "CHOP effect" is not likely to generalize
+
+
+:::
+
+::::
+
+## Feedback and Questions
+
+Contact:
+
+| Charles C. Lanfear
+| Institute of Criminology
+| University of Cambridge
+| [cl948\@cam.ac.uk](mailto:cl948@cam.ac.uk)

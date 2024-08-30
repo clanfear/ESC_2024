@@ -1,0 +1,1497 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="102.25333mm"
+   height="65.563232mm"
+   viewBox="0 0 102.25332 65.563233"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="po_ignorability2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2">
+    <path
+       id="m"
+       d="m 30,-248 c 118,-7 216,8 213,122 C 240,-48 200,0 122,0 H 30 Z m 33,221 c 89,8 146,-16 146,-99 0,-83 -60,-101 -146,-95 v 194"
+       inkscape:connector-curvature="0" />
+    <path
+       id="n"
+       d="m 24,-231 v -30 h 32 v 30 z M 24,0 V -190 H 56 V 0 H 24"
+       inkscape:connector-curvature="0" />
+    <path
+       id="o"
+       d="m 135,-143 c -3,-34 -86,-38 -87,0 15,53 115,12 119,90 4,78 -150,74 -157,8 l 28,-5 c 4,36 97,45 98,0 -10,-56 -113,-15 -118,-90 -4,-57 82,-63 122,-42 12,7 21,19 24,35"
+       inkscape:connector-curvature="0" />
+    <path
+       id="p"
+       d="m 100,-194 c 62,-1 85,37 85,99 1,63 -27,99 -86,99 -59,0 -83,-39 -84,-99 0,-66 28,-99 85,-99 z m -1,174 c 44,1 53,-31 53,-75 0,-43 -8,-75 -51,-75 -43,0 -53,32 -53,75 0,43 10,74 51,75"
+       inkscape:connector-curvature="0" />
+    <path
+       id="q"
+       d="M 114,-163 C 36,-179 61,-72 57,0 H 25 l -1,-190 h 30 c 1,12 -1,29 2,39 6,-27 23,-49 58,-41 v 29"
+       inkscape:connector-curvature="0" />
+    <path
+       id="r"
+       d="m 85,-194 c 31,0 48,13 60,33 l -1,-100 h 32 l 1,261 h -30 c -2,-10 0,-23 -3,-31 C 134,-8 116,4 85,4 32,4 16,-35 15,-94 c 0,-66 23,-100 70,-100 z m 9,24 c -40,0 -46,34 -46,75 0,40 6,74 45,74 42,0 51,-32 51,-76 0,-42 -9,-74 -50,-73"
+       inkscape:connector-curvature="0" />
+    <path
+       id="s"
+       d="m 100,-194 c 63,0 86,42 84,106 H 49 c 0,40 14,67 53,68 26,1 43,-12 49,-29 l 28,8 C 168,-13 142,4 102,4 44,4 14,-33 15,-96 c 1,-61 26,-98 85,-98 z m 52,81 c 6,-60 -76,-77 -97,-28 -3,7 -6,17 -6,28 h 103"
+       inkscape:connector-curvature="0" />
+    <g
+       id="a">
+      <use
+         id="use305"
+         xlink:href="#m"
+         transform="scale(0.05)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use307"
+         xlink:href="#n"
+         transform="matrix(0.05,0,0,0.05,12.95,0)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use309"
+         xlink:href="#o"
+         transform="matrix(0.05,0,0,0.05,16.9,0)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use311"
+         xlink:href="#p"
+         transform="matrix(0.05,0,0,0.05,25.9,0)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use313"
+         xlink:href="#q"
+         transform="matrix(0.05,0,0,0.05,35.9,0)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use315"
+         xlink:href="#r"
+         transform="matrix(0.05,0,0,0.05,41.85,0)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use317"
+         xlink:href="#s"
+         transform="matrix(0.05,0,0,0.05,51.85,0)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use319"
+         xlink:href="#q"
+         transform="matrix(0.05,0,0,0.05,61.85,0)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </g>
+    <path
+       id="t"
+       d="m 212,-179 c -10,-28 -35,-45 -73,-45 -59,0 -87,40 -87,99 0,60 29,101 89,101 43,0 62,-24 78,-52 l 27,14 C 228,-24 195,4 139,4 59,4 22,-46 18,-125 c -6,-104 99,-153 187,-111 19,9 31,26 39,46"
+       inkscape:connector-curvature="0" />
+    <path
+       id="u"
+       d="m 210,-169 c -67,3 -38,105 -44,169 h -31 v -121 c 0,-29 -5,-50 -35,-48 C 34,-165 62,-65 56,0 H 25 l -1,-190 h 30 c 1,10 -1,24 2,32 10,-44 99,-50 107,0 11,-21 27,-35 58,-36 85,-2 47,119 55,194 h -31 v -121 c 0,-29 -5,-49 -35,-48"
+       inkscape:connector-curvature="0" />
+    <g
+       id="b">
+      <use
+         id="use324"
+         xlink:href="#t"
+         transform="scale(0.05)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use326"
+         xlink:href="#q"
+         transform="matrix(0.05,0,0,0.05,12.95,0)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use328"
+         xlink:href="#n"
+         transform="matrix(0.05,0,0,0.05,18.9,0)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use330"
+         xlink:href="#u"
+         transform="matrix(0.05,0,0,0.05,22.85,0)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use332"
+         xlink:href="#s"
+         transform="matrix(0.05,0,0,0.05,37.8,0)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </g>
+    <path
+       id="v"
+       d="m 0,4 72,-265 h 28 L 28,4 H 0"
+       inkscape:connector-curvature="0" />
+    <use
+       id="c"
+       xlink:href="#v"
+       transform="scale(0.05)"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+    <path
+       id="w"
+       d="M 190,0 58,-211 59,0 H 30 v -248 h 39 l 133,213 -2,-213 h 31 V 0 h -41"
+       inkscape:connector-curvature="0" />
+    <g
+       id="d">
+      <use
+         id="use338"
+         xlink:href="#w"
+         transform="scale(0.05)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use340"
+         xlink:href="#p"
+         transform="matrix(0.05,0,0,0.05,12.95,0)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use342"
+         xlink:href="#q"
+         transform="matrix(0.05,0,0,0.05,22.95,0)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use344"
+         xlink:href="#u"
+         transform="matrix(0.05,0,0,0.05,28.9,0)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </g>
+    <path
+       id="x"
+       d="M 137,0 H 103 L 2,-248 h 35 l 83,218 83,-218 h 36"
+       inkscape:connector-curvature="0" />
+    <path
+       id="y"
+       d="M 24,0 V -261 H 56 V 0 H 24"
+       inkscape:connector-curvature="0" />
+    <path
+       id="z"
+       d="M 141,-36 C 126,-15 110,5 73,4 37,3 15,-17 15,-53 c -1,-64 63,-63 125,-63 3,-35 -9,-54 -41,-54 -24,1 -41,7 -42,31 l -33,-3 c 5,-37 33,-52 76,-52 45,0 72,20 72,64 v 82 c -1,20 7,32 28,27 V -1 C 169,8 139,-3 141,-36 Z M 48,-53 c 0,20 12,33 32,33 41,-3 63,-29 60,-74 -43,2 -92,-5 -92,41"
+       inkscape:connector-curvature="0" />
+    <path
+       id="A"
+       d="m 59,-47 c -2,24 18,29 38,22 V -1 C 64,9 27,4 27,-40 V -167 H 5 v -23 h 24 l 9,-43 h 21 v 43 h 35 v 23 H 59 v 120"
+       inkscape:connector-curvature="0" />
+    <path
+       id="B"
+       d="m 117,-194 c 89,-4 53,116 60,194 h -32 v -121 c 0,-31 -8,-49 -39,-48 C 34,-167 62,-67 57,0 H 25 l -1,-190 h 30 c 1,10 -1,24 2,32 11,-22 29,-35 61,-36"
+       inkscape:connector-curvature="0" />
+    <g
+       id="e">
+      <use
+         id="use352"
+         xlink:href="#x"
+         transform="scale(0.05)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use354"
+         xlink:href="#n"
+         transform="matrix(0.05,0,0,0.05,11.65,0)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use356"
+         xlink:href="#p"
+         transform="matrix(0.05,0,0,0.05,15.6,0)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use358"
+         xlink:href="#y"
+         transform="matrix(0.05,0,0,0.05,25.6,0)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use360"
+         xlink:href="#z"
+         transform="matrix(0.05,0,0,0.05,29.55,0)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use362"
+         xlink:href="#A"
+         transform="matrix(0.05,0,0,0.05,39.55,0)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use364"
+         xlink:href="#n"
+         transform="matrix(0.05,0,0,0.05,44.55,0)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use366"
+         xlink:href="#p"
+         transform="matrix(0.05,0,0,0.05,48.5,0)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use368"
+         xlink:href="#B"
+         transform="matrix(0.05,0,0,0.05,58.5,0)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </g>
+    <path
+       id="C"
+       d="m 185,-189 c -5,-48 -123,-54 -124,2 14,75 158,14 163,119 C 227,10 103,19 49,-13 32,-23 21,-39 16,-59 l 33,-7 c 5,56 141,63 141,-1 0,-78 -155,-14 -162,-118 -5,-82 145,-84 179,-34 5,7 8,16 11,25"
+       inkscape:connector-curvature="0" />
+    <path
+       id="D"
+       d="m 96,-169 c -40,0 -48,33 -48,73 0,40 9,75 48,75 24,0 41,-14 43,-38 l 32,2 C 165,-20 140,4 97,4 38,4 21,-37 15,-95 c -10,-93 101,-131 147,-64 4,7 5,14 7,22 l -32,3 c -4,-21 -16,-35 -41,-35"
+       inkscape:connector-curvature="0" />
+    <g
+       id="f">
+      <use
+         id="use373"
+         xlink:href="#C"
+         transform="scale(0.05)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use375"
+         xlink:href="#p"
+         transform="matrix(0.05,0,0,0.05,12,0)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use377"
+         xlink:href="#D"
+         transform="matrix(0.05,0,0,0.05,22,0)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use379"
+         xlink:href="#n"
+         transform="matrix(0.05,0,0,0.05,31,0)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use381"
+         xlink:href="#z"
+         transform="matrix(0.05,0,0,0.05,34.95,0)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use383"
+         xlink:href="#y"
+         transform="matrix(0.05,0,0,0.05,44.95,0)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       id="g">
+      <use
+         id="use386"
+         xlink:href="#t"
+         transform="scale(0.05)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use388"
+         xlink:href="#p"
+         transform="matrix(0.05,0,0,0.05,12.95,0)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use390"
+         xlink:href="#B"
+         transform="matrix(0.05,0,0,0.05,22.95,0)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use392"
+         xlink:href="#A"
+         transform="matrix(0.05,0,0,0.05,32.95,0)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use394"
+         xlink:href="#q"
+         transform="matrix(0.05,0,0,0.05,37.95,0)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use396"
+         xlink:href="#p"
+         transform="matrix(0.05,0,0,0.05,43.9,0)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="use398"
+         xlink:href="#y"
+         transform="matrix(0.05,0,0,0.05,53.9,0)"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </g>
+    <path
+       id="E"
+       d="M 205,0 177,-72 H 64 L 36,0 H 1 l 101,-248 h 38 L 239,0 Z m -38,-99 -47,-123 c -12,45 -31,82 -46,123 h 93"
+       inkscape:connector-curvature="0" />
+    <use
+       id="h"
+       xlink:href="#E"
+       transform="scale(0.08641975)"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+    <use
+       id="i"
+       xlink:href="#m"
+       transform="scale(0.08641975)"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+    <path
+       id="F"
+       d="m 160,-131 c 35,5 61,23 61,61 0,87 -106,68 -191,70 v -248 c 76,3 177,-17 177,60 0,33 -19,50 -47,57 z m -97,-11 c 50,-1 110,9 110,-42 0,-47 -63,-36 -110,-37 z m 0,115 c 55,-2 124,14 124,-45 0,-56 -70,-42 -124,-44 v 89"
+       inkscape:connector-curvature="0" />
+    <use
+       id="j"
+       xlink:href="#F"
+       transform="scale(0.08641975)"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+    <use
+       id="k"
+       xlink:href="#t"
+       transform="scale(0.08641975)"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+    <path
+       id="G"
+       d="m 30,0 v -248 h 187 v 28 H 63 v 79 h 144 v 27 H 63 v 87 H 225 V 0 H 30"
+       inkscape:connector-curvature="0" />
+    <use
+       id="l"
+       xlink:href="#G"
+       transform="scale(0.08641975)"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+    <defs
+       id="defs409">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 30,-248 c 118,-7 216,8 213,122 C 240,-48 200,0 122,0 H 30 Z m 33,221 c 89,8 146,-16 146,-99 0,-83 -60,-101 -146,-95 v 194"
+         id="path5070" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 24,-231 v -30 h 32 v 30 z M 24,0 V -190 H 56 V 0 H 24"
+         id="path5072" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 135,-143 c -3,-34 -86,-38 -87,0 15,53 115,12 119,90 4,78 -150,74 -157,8 l 28,-5 c 4,36 97,45 98,0 -10,-56 -113,-15 -118,-90 -4,-57 82,-63 122,-42 12,7 21,19 24,35"
+         id="path5074" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 100,-194 c 62,-1 85,37 85,99 1,63 -27,99 -86,99 -59,0 -83,-39 -84,-99 0,-66 28,-99 85,-99 z m -1,174 c 44,1 53,-31 53,-75 0,-43 -8,-75 -51,-75 -43,0 -53,32 -53,75 0,43 10,74 51,75"
+         id="path5076" />
+      <path
+         inkscape:connector-curvature="0"
+         d="M 114,-163 C 36,-179 61,-72 57,0 H 25 l -1,-190 h 30 c 1,12 -1,29 2,39 6,-27 23,-49 58,-41 v 29"
+         id="path5078" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 85,-194 c 31,0 48,13 60,33 l -1,-100 h 32 l 1,261 h -30 c -2,-10 0,-23 -3,-31 C 134,-8 116,4 85,4 32,4 16,-35 15,-94 c 0,-66 23,-100 70,-100 z m 9,24 c -40,0 -46,34 -46,75 0,40 6,74 45,74 42,0 51,-32 51,-76 0,-42 -9,-74 -50,-73"
+         id="path5080" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 100,-194 c 63,0 86,42 84,106 H 49 c 0,40 14,67 53,68 26,1 43,-12 49,-29 l 28,8 C 168,-13 142,4 102,4 44,4 14,-33 15,-96 c 1,-61 26,-98 85,-98 z m 52,81 c 6,-60 -76,-77 -97,-28 -3,7 -6,17 -6,28 h 103"
+         id="path5082" />
+      <g
+         id="g5100">
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="scale(0.05)"
+           xlink:href="#m"
+           id="use5084" />
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="matrix(0.05,0,0,0.05,12.95,0)"
+           xlink:href="#n"
+           id="use5086" />
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="matrix(0.05,0,0,0.05,16.9,0)"
+           xlink:href="#o"
+           id="use5088" />
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="matrix(0.05,0,0,0.05,25.9,0)"
+           xlink:href="#p"
+           id="use5090" />
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="matrix(0.05,0,0,0.05,35.9,0)"
+           xlink:href="#q"
+           id="use5092" />
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="matrix(0.05,0,0,0.05,41.85,0)"
+           xlink:href="#r"
+           id="use5094" />
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="matrix(0.05,0,0,0.05,51.85,0)"
+           xlink:href="#s"
+           id="use5096" />
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="matrix(0.05,0,0,0.05,61.85,0)"
+           xlink:href="#q"
+           id="use5098" />
+      </g>
+      <path
+         inkscape:connector-curvature="0"
+         d="m 212,-179 c -10,-28 -35,-45 -73,-45 -59,0 -87,40 -87,99 0,60 29,101 89,101 43,0 62,-24 78,-52 l 27,14 C 228,-24 195,4 139,4 59,4 22,-46 18,-125 c -6,-104 99,-153 187,-111 19,9 31,26 39,46"
+         id="path5102" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 210,-169 c -67,3 -38,105 -44,169 h -31 v -121 c 0,-29 -5,-50 -35,-48 C 34,-165 62,-65 56,0 H 25 l -1,-190 h 30 c 1,10 -1,24 2,32 10,-44 99,-50 107,0 11,-21 27,-35 58,-36 85,-2 47,119 55,194 h -31 v -121 c 0,-29 -5,-49 -35,-48"
+         id="path5104" />
+      <g
+         id="g5116">
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="scale(0.05)"
+           xlink:href="#t"
+           id="use5106" />
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="matrix(0.05,0,0,0.05,12.95,0)"
+           xlink:href="#q"
+           id="use5108" />
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="matrix(0.05,0,0,0.05,18.9,0)"
+           xlink:href="#n"
+           id="use5110" />
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="matrix(0.05,0,0,0.05,22.85,0)"
+           xlink:href="#u"
+           id="use5112" />
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="matrix(0.05,0,0,0.05,37.8,0)"
+           xlink:href="#s"
+           id="use5114" />
+      </g>
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,4 72,-265 h 28 L 28,4 H 0"
+         id="path5118" />
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         transform="scale(0.05)"
+         xlink:href="#v"
+         id="use5120" />
+      <path
+         inkscape:connector-curvature="0"
+         d="M 190,0 58,-211 59,0 H 30 v -248 h 39 l 133,213 -2,-213 h 31 V 0 h -41"
+         id="path5122" />
+      <g
+         id="g5132">
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="scale(0.05)"
+           xlink:href="#w"
+           id="use5124" />
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="matrix(0.05,0,0,0.05,12.95,0)"
+           xlink:href="#p"
+           id="use5126" />
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="matrix(0.05,0,0,0.05,22.95,0)"
+           xlink:href="#q"
+           id="use5128" />
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="matrix(0.05,0,0,0.05,28.9,0)"
+           xlink:href="#u"
+           id="use5130" />
+      </g>
+      <path
+         inkscape:connector-curvature="0"
+         d="M 137,0 H 103 L 2,-248 h 35 l 83,218 83,-218 h 36"
+         id="path5134" />
+      <path
+         inkscape:connector-curvature="0"
+         d="M 24,0 V -261 H 56 V 0 H 24"
+         id="path5136" />
+      <path
+         inkscape:connector-curvature="0"
+         d="M 141,-36 C 126,-15 110,5 73,4 37,3 15,-17 15,-53 c -1,-64 63,-63 125,-63 3,-35 -9,-54 -41,-54 -24,1 -41,7 -42,31 l -33,-3 c 5,-37 33,-52 76,-52 45,0 72,20 72,64 v 82 c -1,20 7,32 28,27 V -1 C 169,8 139,-3 141,-36 Z M 48,-53 c 0,20 12,33 32,33 41,-3 63,-29 60,-74 -43,2 -92,-5 -92,41"
+         id="path5138" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 59,-47 c -2,24 18,29 38,22 V -1 C 64,9 27,4 27,-40 V -167 H 5 v -23 h 24 l 9,-43 h 21 v 43 h 35 v 23 H 59 v 120"
+         id="path5140" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 117,-194 c 89,-4 53,116 60,194 h -32 v -121 c 0,-31 -8,-49 -39,-48 C 34,-167 62,-67 57,0 H 25 l -1,-190 h 30 c 1,10 -1,24 2,32 11,-22 29,-35 61,-36"
+         id="path5142" />
+      <g
+         id="g5162">
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="scale(0.05)"
+           xlink:href="#x"
+           id="use5144" />
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="matrix(0.05,0,0,0.05,11.65,0)"
+           xlink:href="#n"
+           id="use5146" />
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="matrix(0.05,0,0,0.05,15.6,0)"
+           xlink:href="#p"
+           id="use5148" />
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="matrix(0.05,0,0,0.05,25.6,0)"
+           xlink:href="#y"
+           id="use5150" />
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="matrix(0.05,0,0,0.05,29.55,0)"
+           xlink:href="#z"
+           id="use5152" />
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="matrix(0.05,0,0,0.05,39.55,0)"
+           xlink:href="#A"
+           id="use5154" />
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="matrix(0.05,0,0,0.05,44.55,0)"
+           xlink:href="#n"
+           id="use5156" />
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="matrix(0.05,0,0,0.05,48.5,0)"
+           xlink:href="#p"
+           id="use5158" />
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="matrix(0.05,0,0,0.05,58.5,0)"
+           xlink:href="#B"
+           id="use5160" />
+      </g>
+      <path
+         inkscape:connector-curvature="0"
+         d="m 185,-189 c -5,-48 -123,-54 -124,2 14,75 158,14 163,119 C 227,10 103,19 49,-13 32,-23 21,-39 16,-59 l 33,-7 c 5,56 141,63 141,-1 0,-78 -155,-14 -162,-118 -5,-82 145,-84 179,-34 5,7 8,16 11,25"
+         id="path5164" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 96,-169 c -40,0 -48,33 -48,73 0,40 9,75 48,75 24,0 41,-14 43,-38 l 32,2 C 165,-20 140,4 97,4 38,4 21,-37 15,-95 c -10,-93 101,-131 147,-64 4,7 5,14 7,22 l -32,3 c -4,-21 -16,-35 -41,-35"
+         id="path5166" />
+      <g
+         id="g5180">
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="scale(0.05)"
+           xlink:href="#C"
+           id="use5168" />
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="matrix(0.05,0,0,0.05,12,0)"
+           xlink:href="#p"
+           id="use5170" />
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="matrix(0.05,0,0,0.05,22,0)"
+           xlink:href="#D"
+           id="use5172" />
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="matrix(0.05,0,0,0.05,31,0)"
+           xlink:href="#n"
+           id="use5174" />
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="matrix(0.05,0,0,0.05,34.95,0)"
+           xlink:href="#z"
+           id="use5176" />
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="matrix(0.05,0,0,0.05,44.95,0)"
+           xlink:href="#y"
+           id="use5178" />
+      </g>
+      <g
+         id="g5196">
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="scale(0.05)"
+           xlink:href="#t"
+           id="use5182" />
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="matrix(0.05,0,0,0.05,12.95,0)"
+           xlink:href="#p"
+           id="use5184" />
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="matrix(0.05,0,0,0.05,22.95,0)"
+           xlink:href="#B"
+           id="use5186" />
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="matrix(0.05,0,0,0.05,32.95,0)"
+           xlink:href="#A"
+           id="use5188" />
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="matrix(0.05,0,0,0.05,37.95,0)"
+           xlink:href="#q"
+           id="use5190" />
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="matrix(0.05,0,0,0.05,43.9,0)"
+           xlink:href="#p"
+           id="use5192" />
+        <use
+           height="100%"
+           width="100%"
+           y="0"
+           x="0"
+           transform="matrix(0.05,0,0,0.05,53.9,0)"
+           xlink:href="#y"
+           id="use5194" />
+      </g>
+      <path
+         inkscape:connector-curvature="0"
+         d="M 205,0 177,-72 H 64 L 36,0 H 1 l 101,-248 h 38 L 239,0 Z m -38,-99 -47,-123 c -12,45 -31,82 -46,123 h 93"
+         id="path5198" />
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         transform="scale(0.08641975)"
+         xlink:href="#E"
+         id="use5200" />
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         transform="scale(0.08641975)"
+         xlink:href="#m"
+         id="use5202" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 160,-131 c 35,5 61,23 61,61 0,87 -106,68 -191,70 v -248 c 76,3 177,-17 177,60 0,33 -19,50 -47,57 z m -97,-11 c 50,-1 110,9 110,-42 0,-47 -63,-36 -110,-37 z m 0,115 c 55,-2 124,14 124,-45 0,-56 -70,-42 -124,-44 v 89"
+         id="path5204" />
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         transform="scale(0.08641975)"
+         xlink:href="#F"
+         id="use5206" />
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         transform="scale(0.08641975)"
+         xlink:href="#t"
+         id="use5208" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 30,0 v -248 h 187 v 28 H 63 v 79 h 144 v 27 H 63 v 87 H 225 V 0 H 30"
+         id="path5210" />
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         transform="scale(0.08641975)"
+         xlink:href="#G"
+         id="use5212" />
+    </defs>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="181.72643"
+     inkscape:cy="29.34493"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g9"
+     showgrid="false"
+     inkscape:window-width="1277"
+     inkscape:window-height="1343"
+     inkscape:window-x="1962"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-9.0171681,-229.80097)">
+    <g
+       id="g296"
+       transform="matrix(0.26458333,0,0,0.26458333,-241.14881,50.559525)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Normal';font-variant-ligatures:normal;font-variant-position:sub;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.176389"
+       x="23.920004"
+       y="235.28281"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Garamond;-inkscape-font-specification:'Garamond, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:0.176389"
+         x="23.920004"
+         y="235.28281">A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Normal';font-variant-ligatures:normal;font-variant-position:sub;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.176389"
+       x="51.346111"
+       y="235.23112"
+       id="text1-3"><tspan
+         sodipodi:role="line"
+         id="tspan1-6"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Garamond;-inkscape-font-specification:'Garamond, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:0.176389"
+         x="51.346111"
+         y="235.23112">B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Normal';font-variant-ligatures:normal;font-variant-position:sub;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.176389"
+       x="96.705627"
+       y="241.21388"
+       id="text1-5-6-7"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Garamond;-inkscape-font-specification:'Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:0.176389"
+         x="96.705627"
+         y="241.21388"
+         id="tspan4-8">If <tspan
+   style="font-weight:bold"
+   id="tspan6">A</tspan> is</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Garamond;-inkscape-font-specification:'Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:0.176389"
+         x="96.705627"
+         y="248.26944"
+         id="tspan5">like <tspan
+   style="font-weight:bold"
+   id="tspan7">B</tspan></tspan></text>
+    <g
+       id="g2"
+       transform="translate(-58.931139,25.552856)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:Quattrocento;-inkscape-font-specification:'Quattrocento, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#b0514a;fill-opacity:1;stroke:none;stroke-width:0.264583">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Normal';font-variant-ligatures:normal;font-variant-position:sub;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#b0514a;fill-opacity:1;stroke:none;stroke-width:0.176389"
+         x="70.88353"
+         y="245.9485"
+         id="text1-6"><tspan
+           sodipodi:role="line"
+           id="tspan1-4"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Garamond;-inkscape-font-specification:'Garamond, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#b0514a;fill-opacity:1;stroke-width:0.176389"
+           x="70.88353"
+           y="245.9485">Y</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Normal';font-variant-ligatures:normal;font-variant-position:sub;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#b0514a;fill-opacity:1;stroke:none;stroke-width:0.176389"
+         x="76.099617"
+         y="242.40164"
+         id="text1-9"><tspan
+           sodipodi:role="line"
+           id="tspan1-43"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1;font-family:Garamond;-inkscape-font-specification:'Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#b0514a;fill-opacity:1;stroke-width:0.176389"
+           x="76.099617"
+           y="242.40164">1</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1;font-family:Garamond;-inkscape-font-specification:'Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#b0514a;fill-opacity:1;stroke-width:0.176389"
+           x="76.099617"
+           y="247.34053"
+           id="tspan2">A</tspan></text>
+    </g>
+    <g
+       id="g2-0"
+       transform="translate(-41.743355,25.560091)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:Quattrocento;-inkscape-font-specification:'Quattrocento, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.264583">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Normal';font-variant-ligatures:normal;font-variant-position:sub;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.176389"
+         x="70.88353"
+         y="245.9485"
+         id="text1-6-5"><tspan
+           sodipodi:role="line"
+           id="tspan1-4-1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Garamond;-inkscape-font-specification:'Garamond, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#808080;fill-opacity:1;stroke-width:0.176389"
+           x="70.88353"
+           y="245.9485">Y</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Normal';font-variant-ligatures:normal;font-variant-position:sub;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.176389"
+         x="76.099617"
+         y="242.40164"
+         id="text1-9-4"><tspan
+           sodipodi:role="line"
+           id="tspan1-43-7"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1;font-family:Garamond;-inkscape-font-specification:'Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#808080;fill-opacity:1;stroke-width:0.176389"
+           x="76.099617"
+           y="242.40164">0</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1;font-family:Garamond;-inkscape-font-specification:'Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#808080;fill-opacity:1;stroke-width:0.176389"
+           x="76.099617"
+           y="247.34053"
+           id="tspan2-6">A</tspan></text>
+    </g>
+    <g
+       id="g2-7"
+       transform="translate(-7.7126414,25.557679)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:Quattrocento;-inkscape-font-specification:'Quattrocento, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#326b69;fill-opacity:1;stroke:none;stroke-width:0.264583">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Normal';font-variant-ligatures:normal;font-variant-position:sub;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#326b69;fill-opacity:1;stroke:none;stroke-width:0.176389"
+         x="70.88353"
+         y="245.9485"
+         id="text1-6-6"><tspan
+           sodipodi:role="line"
+           id="tspan1-4-9"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Garamond;-inkscape-font-specification:'Garamond, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#326b69;fill-opacity:1;stroke-width:0.176389"
+           x="70.88353"
+           y="245.9485">Y</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Normal';font-variant-ligatures:normal;font-variant-position:sub;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#326b69;fill-opacity:1;stroke:none;stroke-width:0.176389"
+         x="76.099617"
+         y="242.40164"
+         id="text1-9-9"><tspan
+           sodipodi:role="line"
+           id="tspan1-43-5"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1;font-family:Garamond;-inkscape-font-specification:'Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#326b69;fill-opacity:1;stroke-width:0.176389"
+           x="76.099617"
+           y="242.40164">0</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1;font-family:Garamond;-inkscape-font-specification:'Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#326b69;fill-opacity:1;stroke-width:0.176389"
+           x="76.099617"
+           y="247.34053"
+           id="tspan2-0">B</tspan></text>
+    </g>
+    <g
+       id="g2-7-6"
+       transform="translate(-24.555571,25.550444)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:Quattrocento;-inkscape-font-specification:'Quattrocento, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.264583">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Normal';font-variant-ligatures:normal;font-variant-position:sub;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.176389"
+         x="70.88353"
+         y="245.9485"
+         id="text1-6-6-5"><tspan
+           sodipodi:role="line"
+           id="tspan1-4-9-9"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Garamond;-inkscape-font-specification:'Garamond, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#808080;fill-opacity:1;stroke-width:0.176389"
+           x="70.88353"
+           y="245.9485">Y</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Normal';font-variant-ligatures:normal;font-variant-position:sub;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.176389"
+         x="76.099617"
+         y="242.40164"
+         id="text1-9-9-4"><tspan
+           sodipodi:role="line"
+           id="tspan1-43-5-1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1;font-family:Garamond;-inkscape-font-specification:'Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#808080;fill-opacity:1;stroke-width:0.176389"
+           x="76.099617"
+           y="242.40164">1</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1;font-family:Garamond;-inkscape-font-specification:'Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#808080;fill-opacity:1;stroke-width:0.176389"
+           x="76.099617"
+           y="247.34053"
+           id="tspan2-0-1">B</tspan></text>
+    </g>
+    <g
+       id="g7"
+       transform="translate(5.4998)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Normal';font-variant-ligatures:normal;font-variant-position:sub;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.176389"
+         x="91.298668"
+         y="260.68488"
+         id="text1-1-2-8"><tspan
+           sodipodi:role="line"
+           id="tspan1-7-1-0"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Garamond;-inkscape-font-specification:'Garamond, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:0.176389"
+           x="91.298668"
+           y="260.68488">=</tspan></text>
+      <g
+         id="g2-9"
+         transform="translate(8.537611,14.689646)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:Quattrocento;-inkscape-font-specification:'Quattrocento, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#b0514a;fill-opacity:1;stroke:none;stroke-width:0.264583">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Normal';font-variant-ligatures:normal;font-variant-position:sub;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#b0514a;fill-opacity:1;stroke:none;stroke-width:0.176389"
+           x="70.88353"
+           y="245.9485"
+           id="text1-6-2"><tspan
+             sodipodi:role="line"
+             id="tspan1-4-17"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Garamond;-inkscape-font-specification:'Garamond, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#b0514a;fill-opacity:1;stroke-width:0.176389"
+             x="70.88353"
+             y="245.9485">Y</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Normal';font-variant-ligatures:normal;font-variant-position:sub;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#b0514a;fill-opacity:1;stroke:none;stroke-width:0.176389"
+           x="76.099617"
+           y="242.40164"
+           id="text1-9-1"><tspan
+             sodipodi:role="line"
+             id="tspan1-43-73"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1;font-family:Garamond;-inkscape-font-specification:'Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#b0514a;fill-opacity:1;stroke-width:0.176389"
+             x="76.099617"
+             y="242.40164">1</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1;font-family:Garamond;-inkscape-font-specification:'Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#b0514a;fill-opacity:1;stroke-width:0.176389"
+             x="76.099617"
+             y="247.34053"
+             id="tspan2-38">A</tspan></text>
+      </g>
+      <g
+         id="g2-7-6-8"
+         transform="translate(28.382098,14.687234)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:Quattrocento;-inkscape-font-specification:'Quattrocento, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.264583">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Normal';font-variant-ligatures:normal;font-variant-position:sub;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.176389"
+           x="70.88353"
+           y="245.9485"
+           id="text1-6-6-5-5"><tspan
+             sodipodi:role="line"
+             id="tspan1-4-9-9-3"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Garamond;-inkscape-font-specification:'Garamond, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#808080;fill-opacity:1;stroke-width:0.176389"
+             x="70.88353"
+             y="245.9485">Y</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Normal';font-variant-ligatures:normal;font-variant-position:sub;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.176389"
+           x="76.099617"
+           y="242.40164"
+           id="text1-9-9-4-9"><tspan
+             sodipodi:role="line"
+             id="tspan1-43-5-1-0"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1;font-family:Garamond;-inkscape-font-specification:'Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#808080;fill-opacity:1;stroke-width:0.176389"
+             x="76.099617"
+             y="242.40164">1</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1;font-family:Garamond;-inkscape-font-specification:'Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#808080;fill-opacity:1;stroke-width:0.176389"
+             x="76.099617"
+             y="247.34053"
+             id="tspan2-0-1-4">B</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g8"
+       transform="translate(6.8227179)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Normal';font-variant-ligatures:normal;font-variant-position:sub;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.176389"
+         x="89.975754"
+         y="271.26822"
+         id="text1-1-2-8-1"><tspan
+           sodipodi:role="line"
+           id="tspan1-7-1-0-3"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Garamond;-inkscape-font-specification:'Garamond, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:0.176389"
+           x="89.975754"
+           y="271.26822">=</tspan></text>
+      <g
+         id="g2-9-4"
+         transform="translate(7.2146933,25.272985)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:Quattrocento;-inkscape-font-specification:'Quattrocento, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.264583">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Normal';font-variant-ligatures:normal;font-variant-position:sub;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.176389"
+           x="70.88353"
+           y="245.9485"
+           id="text1-6-2-4"><tspan
+             sodipodi:role="line"
+             id="tspan1-4-17-4"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Garamond;-inkscape-font-specification:'Garamond, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#808080;fill-opacity:1;stroke-width:0.176389"
+             x="70.88353"
+             y="245.9485">Y</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Normal';font-variant-ligatures:normal;font-variant-position:sub;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.176389"
+           x="76.099617"
+           y="242.40164"
+           id="text1-9-1-1"><tspan
+             sodipodi:role="line"
+             id="tspan1-43-73-7"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1;font-family:Garamond;-inkscape-font-specification:'Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#808080;fill-opacity:1;stroke-width:0.176389"
+             x="76.099617"
+             y="242.40164">1</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1;font-family:Garamond;-inkscape-font-specification:'Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#808080;fill-opacity:1;stroke-width:0.176389"
+             x="76.099617"
+             y="247.34053"
+             id="tspan2-38-7">A</tspan></text>
+      </g>
+      <g
+         id="g2-7-6-8-9"
+         transform="translate(27.05918,25.270573)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:Quattrocento;-inkscape-font-specification:'Quattrocento, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#326b69;fill-opacity:1;stroke:none;stroke-width:0.264583">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Normal';font-variant-ligatures:normal;font-variant-position:sub;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#326b69;fill-opacity:1;stroke:none;stroke-width:0.176389"
+           x="70.88353"
+           y="245.9485"
+           id="text1-6-6-5-5-2"><tspan
+             sodipodi:role="line"
+             id="tspan1-4-9-9-3-6"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Garamond;-inkscape-font-specification:'Garamond, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#326b69;fill-opacity:1;stroke-width:0.176389"
+             x="70.88353"
+             y="245.9485">Y</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Normal';font-variant-ligatures:normal;font-variant-position:sub;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#326b69;fill-opacity:1;stroke:none;stroke-width:0.176389"
+           x="76.099617"
+           y="242.40164"
+           id="text1-9-9-4-9-5"><tspan
+             sodipodi:role="line"
+             id="tspan1-43-5-1-0-1"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1;font-family:Garamond;-inkscape-font-specification:'Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#326b69;fill-opacity:1;stroke-width:0.176389"
+             x="76.099617"
+             y="242.40164">1</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1;font-family:Garamond;-inkscape-font-specification:'Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#326b69;fill-opacity:1;stroke-width:0.176389"
+             x="76.099617"
+             y="247.34053"
+             id="tspan2-0-1-4-0">B</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g9">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Normal';font-variant-ligatures:normal;font-variant-position:sub;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.176389"
+         x="42.319969"
+         y="291.60904"
+         id="text1-1"><tspan
+           sodipodi:role="line"
+           id="tspan1-7"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Garamond;-inkscape-font-specification:'Garamond, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:0.176389"
+           x="42.319969"
+           y="291.60904">–</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Normal';font-variant-ligatures:normal;font-variant-position:sub;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.176389"
+         x="61.509155"
+         y="292.51923"
+         id="text1-1-2"><tspan
+           sodipodi:role="line"
+           id="tspan1-7-1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Garamond;-inkscape-font-specification:'Garamond, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:0.176389"
+           x="61.509155"
+           y="292.51923">=</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Normal';font-variant-ligatures:normal;font-variant-position:sub;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.176389"
+         x="80.393608"
+         y="288.20184"
+         id="text1-5-6"><tspan
+           sodipodi:role="line"
+           id="tspan1-3-7"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Garamond;-inkscape-font-specification:'Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:0.176389"
+           x="80.393608"
+           y="288.20184">Treatment</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Garamond;-inkscape-font-specification:'Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:0.176389"
+           x="80.393608"
+           y="295.25742"
+           id="tspan4">effect</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Normal';font-variant-ligatures:normal;font-variant-position:sub;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.176389"
+         x="40.133022"
+         y="278.99744"
+         id="text1-5-6-3"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Garamond;-inkscape-font-specification:'Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#808080;fill-opacity:1;stroke-width:0.176389"
+           x="40.133022"
+           y="278.99744"
+           id="tspan4-4">Unobserved</tspan></text>
+      <g
+         id="g2-4"
+         transform="translate(-40.068998,46.184325)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:Quattrocento;-inkscape-font-specification:'Quattrocento, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#b0514a;fill-opacity:1;stroke:none;stroke-width:0.264583">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Normal';font-variant-ligatures:normal;font-variant-position:sub;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#b0514a;fill-opacity:1;stroke:none;stroke-width:0.176389"
+           x="70.88353"
+           y="245.9485"
+           id="text1-6-62"><tspan
+             sodipodi:role="line"
+             id="tspan1-4-5"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Garamond;-inkscape-font-specification:'Garamond, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#b0514a;fill-opacity:1;stroke-width:0.176389"
+             x="70.88353"
+             y="245.9485">Y</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Normal';font-variant-ligatures:normal;font-variant-position:sub;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#b0514a;fill-opacity:1;stroke:none;stroke-width:0.176389"
+           x="76.099617"
+           y="242.40164"
+           id="text1-9-8"><tspan
+             sodipodi:role="line"
+             id="tspan1-43-2"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1;font-family:Garamond;-inkscape-font-specification:'Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#b0514a;fill-opacity:1;stroke-width:0.176389"
+             x="76.099617"
+             y="242.40164">1</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1;font-family:Garamond;-inkscape-font-specification:'Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#b0514a;fill-opacity:1;stroke-width:0.176389"
+             x="76.099617"
+             y="247.34053"
+             id="tspan2-3">A</tspan></text>
+      </g>
+      <g
+         id="g2-7-5"
+         transform="translate(-20.972829,46.19156)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:1.25;font-family:Quattrocento;-inkscape-font-specification:'Quattrocento, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#326b69;fill-opacity:1;stroke:none;stroke-width:0.264583">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Normal';font-variant-ligatures:normal;font-variant-position:sub;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#326b69;fill-opacity:1;stroke:none;stroke-width:0.176389"
+           x="70.88353"
+           y="245.9485"
+           id="text1-6-6-8"><tspan
+             sodipodi:role="line"
+             id="tspan1-4-9-1"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Garamond;-inkscape-font-specification:'Garamond, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#326b69;fill-opacity:1;stroke-width:0.176389"
+             x="70.88353"
+             y="245.9485">Y</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1;font-family:'Myriad Pro';-inkscape-font-specification:'Myriad Pro, Normal';font-variant-ligatures:normal;font-variant-position:sub;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#326b69;fill-opacity:1;stroke:none;stroke-width:0.176389"
+           x="76.099617"
+           y="242.40164"
+           id="text1-9-9-9"><tspan
+             sodipodi:role="line"
+             id="tspan1-43-5-6"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1;font-family:Garamond;-inkscape-font-specification:'Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#326b69;fill-opacity:1;stroke-width:0.176389"
+             x="76.099617"
+             y="242.40164">0</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1;font-family:Garamond;-inkscape-font-specification:'Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#326b69;fill-opacity:1;stroke-width:0.176389"
+             x="76.099617"
+             y="247.34053"
+             id="tspan2-0-6">B</tspan></text>
+      </g>
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5526"
+       style="font-style:normal;font-weight:normal;font-size:18.6667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,0,-3)"><flowRegion
+         id="flowRegion5528"><rect
+           id="rect5530"
+           width="72.85714"
+           height="43.57143"
+           x="335.71429"
+           y="194.57256" /></flowRegion><flowPara
+         id="flowPara5532" /></flowRoot>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="84.477676"
+       y="116.89434"
+       id="text5582" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="44.901279"
+       y="62.203724"
+       id="text5690" />
+    <g
+       id="g5453-7"
+       transform="translate(-70.461191,103.49413)">
+      <g
+         id="g6423"
+         transform="rotate(-22.029665,84.778612,128.46151)">
+        <path
+           sodipodi:nodetypes="cc"
+           style="fill:none;stroke:#000000;stroke-width:0.529167"
+           inkscape:connector-curvature="0"
+           d="M 90.210385,137.30084 76.352528,154.24142"
+           id="path288-8-2" />
+        <path
+           style="stroke:#000000;stroke-width:0.529167"
+           inkscape:connector-curvature="0"
+           d="m 73.812528,157.28413 1.47373,-3.67771 1.88648,1.56634 z"
+           id="path290-1-3" />
+      </g>
+    </g>
+    <g
+       id="g5453-7-2"
+       transform="matrix(-1,0,0,1,146.90566,103.49413)">
+      <g
+         id="g6423-1"
+         transform="rotate(-22.029665,84.778612,128.46151)">
+        <path
+           sodipodi:nodetypes="cc"
+           style="fill:none;stroke:#000000;stroke-width:0.529167"
+           inkscape:connector-curvature="0"
+           d="M 90.210385,137.30084 76.352528,154.24142"
+           id="path288-8-2-9" />
+        <path
+           style="stroke:#000000;stroke-width:0.529167"
+           inkscape:connector-curvature="0"
+           d="m 73.812528,157.28413 1.47373,-3.67771 1.88648,1.56634 z"
+           id="path290-1-3-9" />
+      </g>
+    </g>
+  </g>
+</svg>
