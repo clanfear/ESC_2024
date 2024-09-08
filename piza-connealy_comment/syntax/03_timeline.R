@@ -1,24 +1,63 @@
 library(tidyverse)
 library(patchwork)
+library(ggrepel)
+library(showtext)
+font_add_google("EB Garamond")
+showtext_auto()
 
 load("./piza-connealy_comment/data/derived/spd_crime_daily.RData")
 
-timeline <- tribble( ~date, ~event, ~ offset,
-                     "25-05-2020", "George Floyd killed", 0,
-                     # "29-05-2020", "Protests start",
-                     # "30-05-2020", "Downtown riots", 6,
-                     "01-06-2020", "Capitol Hill protests begin", 8,
-                     # "05-06-2020", "Tear gas ban", 
-                     # "06-06-2020", "SPD disperses protesters",
-                     # "06-07-2020", "Fernandez shooting",
-                     # "06-07-2020", "SPD uses tear gas, flashbangs",
-                     "08-06-2020", "Eastern precinct evacuated", 0,
-                     "01-07-2020", "SPD returns to eastern precinct", 0,
-                     "25-07-2020", "Detention center protest", 0) |> 
-  mutate(date = lubridate::dmy(date),
+timeline <- tribble( ~date, ~event, ~position, ~ offset, ~ include,
+                     "2020-05-25", "George Floyd killed",             4 , 0, TRUE,
+                     "2020-05-29", "Downtown protests start",        0 , 0, FALSE,
+                     "2020-05-30", "Downtown riots",                  0 , 0, FALSE,
+                     "2020-06-01", "Capitol Hill protests start",     4 , 8, TRUE,
+                     "2020-06-05", "Tear gas ban",                    0 , 0, FALSE,
+                     "2020-06-06", "SPD disperses protesters",        0 , 0, FALSE,
+                     "2020-06-07", "Fernandez shooting",              0 , 0, FALSE,
+                     "2020-06-07", "SPD uses tear gas, flashbangs",   0 , 4, FALSE,
+                     "2020-06-08", "Eastern precinct evacuated",      4 , 0, TRUE,
+                     "2020-07-01", "SPD returns to eastern precinct", 4 , 6,TRUE,
+                     "2020-07-25", "Detention center protest",        0 , 0, TRUE) |> 
+  mutate(date = as.Date(date),
          y = 1 + offset,
          ymax = 0.25 + offset,
-         ymin = 0)
+         ymin = 0,
+         vjust = as.numeric(position < 0))
+
+background_plot  <-  timeline |> filter(position!=0) |>
+  mutate(event = str_wrap(event, 11)) |>
+  ggplot(aes(x = date)) +
+  annotate("rect",
+           xmin = as.Date("2020-06-08"), 
+           xmax = as.Date("2020-07-01"), 
+           ymin = 0, 
+           ymax = 3, 
+           fill  = "black", 
+           alpha = 0.3) +
+  annotate("text", label = "CHOP Period", x = as.Date("2020-06-20"), y = 2, family = "EB Garamond", color = "#b0514a", size = 10) +
+  geom_segment(aes(y = 0, yend = position-0.25, xend = date), linetype = "dashed", linewidth = 0.25, color = "#333d4d") +
+  geom_text(aes(y = position, label = event), vjust = 0, family = "EB Garamond", size = 10, lineheight = 0.25, color = "#333d4d") +
+  scale_x_date(limits = c(as.Date("2020-05-15"), as.Date("2020-07-15")), breaks = as.Date(c("2020-05-15", "2020-06-01", "2020-06-15", "2020-07-01", "2020-07-15")), date_labels = "%B %e") +
+  scale_y_continuous(limits = c(0, 10)) +
+  geom_hline(yintercept = 0, color = "#333d4d") +
+  theme_minimal(base_size = 32, base_family = "EB Garamond") + 
+  labs(x = NULL, y = NULL) +
+  theme(legend.position   = "none", 
+        strip.text = element_text(lineheight = 0.25, color = "#333d4d"),
+        legend.background = element_rect(fill  = "white", 
+                                         color = "white"),
+        text              = element_text(family = "EB Garamond", color = "#333d4d"),
+        panel.grid.minor = element_blank(),
+        panel.grid.major.x = element_line(linewidth = 0.15, color = "#d1ccc4"),
+        panel.grid.major = element_blank(),
+        panel.spacing.y   = unit(0, "pt"),
+        axis.text.y = element_blank(),
+        axis.text.x = element_text(margin = margin(0,0,0,0, unit = "pt"), color = "#333d4d"),
+        plot.margin = margin(0, 5, 5, 5, unit = "pt"))
+background_plot
+ggsave("./piza-connealy_comment/img/background_plot.png", plot = background_plot, device = ragg::agg_png, width = 16, height = 3, units = "cm")
+
 
 date_min <- as.Date("2020-04-01")
 date_max <- as.Date("2020-08-01")
@@ -40,7 +79,7 @@ crime_plot <- spd_crime_daily %>%
   geom_hline(yintercept = 0, color = "#333d4d") +
   geom_line()  +
   scale_color_manual(values = c("CHOP" = "#b0514a", "Other Precincts" = "#333d4d")) +
-  geom_vline(data = timeline, aes(xintercept = date), color = "black", linetype = "dashed", linewidth = 0.25, color = "#333d4d") +
+  geom_vline(data = timeline |> filter(include), aes(xintercept = date), linetype = "dashed", linewidth = 0.25, color = "#333d4d") +
   facet_grid(zone~., scales = "free_y") +
   scale_y_continuous(limits = c(0, NA), expand = expansion(mult = c(0, .2))) +
   labs(y     = "Crime counts", 
@@ -61,11 +100,11 @@ crime_plot <- spd_crime_daily %>%
         axis.text.x = element_text(margin = margin(0,0,0,0, unit = "pt"), color = "#333d4d"),
         plot.margin = margin(0, 5, 5, 5, unit = "pt"))
 
-event_plot <- timeline |>
+event_plot <- timeline |> filter(include) |>
   mutate(event = ifelse(str_detect(event, "protests begin"), event, str_wrap(event, 10))) |>
   ggplot(aes(x = date)) +
   geom_text(aes(y = y, label = event), vjust = 0, family = "EB Garamond", size = 10, lineheight = 0.25, color = "#333d4d") +
-  geom_segment(aes(y = ymin, yend = ymax, xend = date), color = "black", linetype = "dashed", linewidth = 0.25, color = "#333d4d") +
+  geom_segment(aes(y = ymin, yend = ymax, xend = date), linetype = "dashed", linewidth = 0.25, color = "#333d4d") +
   scale_x_date(limits = c(date_min, date_max)) +
   scale_y_continuous(limits = c(0, 11)) +
   theme_void(base_size = 32, base_family = "EB Garamond") +

@@ -1,6 +1,7 @@
 library(maptiles)
 library(tidyterra)
 library(ggrepel)
+library(sf)
 
 mark_color <- "#333d4d"
 label_bg_color <- "#fff5e5"
@@ -14,11 +15,25 @@ east_precinct <- tibble(x = -122.3169972, y = 47.6150271) |>
   st_as_sf(coords = c("x", "y"), crs = 4326) 
 ch_tip <- tibble(x = -122.3168, y = 47.6188) |> 
   st_as_sf(coords = c("x", "y"), crs = 4326)
-
+my_house <- tibble(x = -122.3270513, y = 47.6676601) |> 
+  st_as_sf(coords = c("x", "y"), crs = 4326)
 
 left_plot <- ggplot() +
   geom_spatraster_rgb(data = get_tiles(seattle_tracts, provider = "Esri.WorldStreetMap", zoom = 13, crop = TRUE)) +
   geom_sf(data = ch_boundaries |> filter(name == "CHOP"), color = mark_color, fill = NA, linewidth = 0.5) +
+  geom_label_repel(
+    data = my_house,
+    aes(geometry = geometry),
+    label = "My House",
+    stat = "sf_coordinates",
+    min.segment.length = 0,
+    nudge_x = -0.02,
+    nudge_y = 0.02,
+    color = mark_color,
+    fill = label_bg_color,
+    family = "EB Garamond",
+    size = 8
+  ) +
   geom_label_repel(
     data = ch_tip,
     aes(geometry = geometry),
@@ -70,4 +85,4 @@ chop_map <- left_plot + right_plot &
     panel.background = element_rect(fill = "transparent", color = "transparent"),
     plot.background = element_rect(fill = "transparent", color = "transparent"))
 
-ggsave("./piza-connealy_comment/slides/img/chop_map.png", device = ragg::agg_png, width = 16, height = 9, units = "cm")
+ggsave("./piza-connealy_comment/img/chop_map.png", plot = chop_map, device = ragg::agg_png, width = 16, height = 9, units = "cm")

@@ -1,0 +1,282 @@
+---
+author:
+  - name: Charles C. Lanfear
+    affiliations: University of Cambridge
+title: Reciprocal relationships, reverse causality, and temporal ordering
+subtitle: Testing theories with cross-lagged panel models
+format:
+  revealjs:
+    theme: assets/cclslides.scss
+    incremental: false
+    self-contained: true
+    width: 1200
+    height: 800
+    auto-stretch: true
+    title-slide-attributes:
+      data-background-image: img/paisley.png
+      data-background-position: bottom
+      data-background-size: contain
+filters: 
+  - assets/invert-h1.lua
+editor: source
+mouse-wheel: true
+history: false
+---
+
+```{r}
+#| label: "setup"
+#| include: false
+library(tidyverse)
+library(showtext)
+slide_font <- "EB Garamond"
+font_add_google(name = slide_font)
+showtext_auto()
+```
+
+# Background
+
+## What is today about?
+
+> Reviewing common problems in applied work
+
+> Aligning theory, models, and estimation
+
+> Assume understand basics of conditional ignorability
+
+## Reciprocality
+
+* Theories sometimes imply reciprocality
+* Also sometimes an empirical problem
+* But pretty much nothing is actually reciprocal; the world is recursive
+
+
+## Mechanisms and time
+
+* Time enforces recursiveness 
+* Things that appear non-recursive are usually omitting mediators or time
+
+> Show 5 time DAG, 3 time SEM
+
+> Do another with a mechanism
+
+## Time DAG
+
+```{tikz fig-2-theory-dag, fig.ext = "svg"}
+\usetikzlibrary{positioning}
+\definecolor{black}{HTML}{000000}
+\tikzset{
+    > = stealth,
+    every node/.append style = {
+        draw = none
+    },
+    every path/.append style = {
+        arrows = ->,
+        draw = black,
+        fill = none
+    },
+    hidden/.style = {
+        draw = black,
+        shape = circle,
+        inner sep = 1pt
+    }
+}
+\tikz{
+    \node (x1) at (0,2) {$X_1$};
+    \node[hidden] (x15) at (2,2) {$X_1.5$};
+    \node (x2) at (4,2) {$X_2$};
+    \node[hidden] (x25) at (6,2) {$X_2.5$};
+    \node (x3) at (8,2) {$X_3$};
+    \node (y1) at (0,0) {$Y_1$};
+    \node[hidden] (y15) at (2,0) {$Y_1.5$};
+    \node (y2) at (4,0) {$Y_2$};
+    \node[hidden] (y25) at (6,0) {$Y_2.5$};
+    \node (y3) at (8,0) {$Y_3$};
+    \path (x1) edge (x15);
+    \path (x15) edge (x2);
+    \path (x2) edge (x25);
+    \path (x25) edge (x3);
+    \path (x1) edge (y15);
+    \path (x15) edge (y2);
+    \path (x2) edge (y25);
+    \path (x25) edge (y3);
+    \path (y1) edge (y15);
+    \path (y15) edge (y2);
+    \path (y2) edge (y25);
+    \path (y25) edge (y3);
+    \path (y1) edge (x15);
+    \path (y15) edge (x2);
+    \path (y2) edge (x25);
+    \path (y25) edge (x3);
+  }
+```
+
+## Time Estimator
+
+```{tikz, fig.ext = "svg"}
+\usetikzlibrary{positioning}
+\definecolor{black}{HTML}{000000}
+\tikzset{
+    > = stealth,
+    every node/.append style = {
+        draw = none
+    },
+    every path/.append style = {
+        arrows = ->,
+        draw = black,
+        fill = none
+    },
+    hidden/.style = {
+        draw = black,
+        shape = circle,
+        inner sep = 1pt
+    }
+}
+\tikz{
+    \node (x1) at (0,2) {$X_1$};
+    \node (x2) at (2,2) {$X_2$};
+    \node (x3) at (4,2) {$X_3$};
+    \node (y1) at (0,0) {$Y_1$};
+    \node (y2) at (2,0) {$Y_2$};
+    \node (y3) at (4,0) {$Y_3$};
+    \path (x1) edge (x2);
+    \path (x2) edge (x3);
+    \path (x1) edge (y2);
+    \path (x2) edge (y3);
+    \path (y1) edge (y2);
+    \path (y2) edge (y3);
+    \path (y1) edge (x2);
+    \path (y2) edge (x3);
+    \path (x1) edge [bend right=60, arrows = <->] (y1);
+    \path (x2) edge [bend right=60, arrows = <->] (y2);
+    \path (x3) edge [bend right=60, arrows = <->] (y3);
+  }
+```
+
+
+## Theory
+
+* Make your theory recursive; use a DAG
+* Estimation may requite non-recursive models
+
+
+
+# Three common problems
+
+## Temporal Order
+
+* Illustrated by Vaisey & Miles (2019)
+
+* If true model is $y = \beta x_t + \alpha_i + e_{it}$ and you fit $y = \beta^* x_{t-t} + \alpha_i + e_{it}$, $E(\beta^*) = -0.5\beta$
+
+## Example paper
+
+## Solutions
+
+* Hard: Use strong theory to get timing right
+* Use robust estimators, e.g., Allison#s approach
+* If ambiguous contemporaneous path matters, you'll need strong instrument(s)
+
+```{tikz allison-2022, fig.ext = 'svg'}
+\usetikzlibrary{positioning}
+\definecolor{black}{HTML}{000000}
+\tikzset{
+    > = stealth,
+    every node/.append style = {
+        draw = none
+    },
+    every path/.append style = {
+        arrows = ->,
+        draw = black,
+        fill = none
+    },
+    hidden/.style = {
+        draw = black,
+        shape = circle,
+        inner sep = 1pt
+    }
+}
+\tikz{
+    \node (x1) at (0,2) {$X_1$};
+    \node (x2) at (2,2) {$X_2$};
+    \node (x3) at (4,2) {$X_3$};
+    \node (y1) at (0,0) {$Y_1$};
+    \node (y2) at (2,0) {$Y_2$};
+    \node (y3) at (4,0) {$Y_3$};
+    \node (ex2) at (2.5,3) {$e_{x2}$};
+    \node (ey2) at (2.5,-1) {$e_{y2}$};
+    \node (ex3) at (4.5,3) {$e_{x3}$};
+    \node (ey3) at (4.5,-1) {$e_{y3}$};
+    
+    \path (x1) edge (x2);
+    \path (x2) edge (x3);
+    
+    \path (x1) edge (y2);
+    \path (x2) edge (y3);
+    
+    \path (y1) edge (y2);
+    \path (y2) edge (y3);
+    
+    \path (y1) edge (x2);
+    \path (y2) edge (x3);
+    
+    \path (ex2) edge (x2);
+    \path (ex3) edge (x3);
+    
+    \path (ey2) edge (y2);
+    \path (ey3) edge (y3);
+    
+    \path (x1) edge [bend right=45, arrows = <->] (y1);
+    \path (ex2) edge [bend left=45, arrows = <->] (ey2);
+    \path (ex3) edge [bend left=45, arrows = <->] (ey3);
+  }
+```
+
+
+## Unobserved Heterogeneity
+
+* Most common concern is stable traits
+* Can't just toss in fixed effects due to Nickell bias
+
+## Example paper
+
+## Solutions
+
+* Different approaches
+* Psychology approaches: RI-CLPM
+* Econometric approaches: Arellano-Bond, ML-SEM 
+
+## Low Temporal Variation
+
+* $Var(Y_2|Y_1) \rightarrow 0$ as $\rho(Y_1,Y_2) \rightarrow 1$
+* Error becomes proportionally larger component
+* Common with narrow waves, stable constructs
+
+
+## Example paper
+
+> That neighbs one? Hipp?
+
+## Solutions
+
+* Error part can be dealt with using measurement models
+  * Should do this anyway as outcomes are regressors, so measurement error attenuates estimates
+* Address during data collection
+   * Oversample for change
+   * Look for shocks
+* Consider different time lags or units of analysis
+* Might be nothing you can do
+
+# Advice
+
+* Theory comes first
+* Default to robust methods
+
+## Feedback and Questions
+
+
+Contact:
+
+| Charles C. Lanfear
+| Institute of Criminology
+| University of Cambridge
+| [cl948\@cam.ac.uk](mailto:cl948@cam.ac.uk)

@@ -41,22 +41,65 @@ load("../data/derived/spd_crime_daily.RData")
 
 ![](img/pc_cpp.png){width=60%}
 
+
+## Background
+
+![](img/rs_chop.jpg)
+
+## Timeline
+
+![](img/background_plot.png)
+
+
+## Their Question
+
+### Did SPD's withdrawal increase crime?
+
+> The geographically focused, time limited nature of CHOP provides an opportunity for a natural experiment to test the effect of the autonomous zone on crime. Given the context of CHOP, this study may further be considered a test of police abolition, the most radical proposal advanced in the police defunding movement.
+
+## Piza & Connealy's Strategy
+
+Microsynthetic control approach:
+
+1. Treat police withdrawal as quasi-experimental treatment
+2. Match "treated" street segments to similar untreated "controls"
+3. Compare crime counts between treatment groups
+
+
 ## {}
 
 ![](img/chop_map.png)
 
+36 street segments in CHOP Zone
 
-## Purpose
+## Matching Variables {.r-fit-text}
 
-Police withdrawal occurring during CHOP supposedly provides a quasi-experiment of what happens when you remove policing from an area
+Continuous:
 
-They specifically refer to police abolishment in the paper, implying abolition would result in CHOP-like conditions
+* **6-day period police-recorded crime counts**
+*	Count of commercial businesses
+*	Count of consumer-facing facing establishments
+*	Block group crime density
+*	Length of the street segment
 
-## Their strategy
+Binary:
 
-Synthetic control
+*	Principal vs arterial street
+*	If pre-CHOP total crime > 80th percentile
+*	If police beat > 80th percentile of police calls
+*	In block group with > mean disadvantage
+*	In block group with > mean non-white residents, residents 15-29, vacant homes, and owned/rented homes
+
 
 ## Their findings
+
+> Results indicate crime significantly increased in the CHOP zone, the encompassing two-block area, and the overall East precinct service area.
+
+> The current study found comparatively stronger effects than the general literature on depolicing. The significant crime increase is particularly noteworthy given the short time frame of the CHOP occupation and retreat of police from the area theoretically making it more challenging for crimes to be reported by citizens and/or proactively discovered by officers.  This suggests that **police abolition**, the most extreme form of the police defunding movement, **may significantly compromise public safety**.
+
+::: aside
+Source: Piza & Connealy (2020)
+:::
 
 # Counterfactuals
 
@@ -92,6 +135,7 @@ We do this with *randomization*, *conditioning* on variables, or, in the present
 ## What is our counterfactual?
 
 Seems like this is really about Y0A not being what they think it is?
+
 
 # Piza & Connealy Revisited
 
@@ -137,11 +181,10 @@ No comparison units had a large-scale protest against police occurring in them; 
 
 > Show pictures not during chop
 
-Huge fucking influx of people *prior* to CHOP
+Huge fucking influx of people *prior* to CHOP; comparison units do not have similar conditions
 
-## Secondary Issues
+> Seattle's protest stood out from the national activity due to their extreme magnitude and duration, particularly in the context of the Capitol Hill neighborhood. (Piza & Connealy 2020:36)
 
-* Interference: Protests and police withdrawal caused shifts across city
 
 ## What did crime *actually* do after the pullout?
 
@@ -195,7 +238,8 @@ Critically, the difference between these does not tell us if withdrawing from th
 Design
 
 * Theory needs to be correct
-* Theory requires contextual understanding
+* Know your counterfactual
+* Other cities may offer valid counterfactuals (e.g., Portland)
 
 :::
 
