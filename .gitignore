@@ -52,3 +52,6 @@ rsconnect/
 /piza-connealy_comment/data/
 /piza-connealy_comment/ignore/
 /clpm/ignore/
+
+# tikz logs
+*.log
