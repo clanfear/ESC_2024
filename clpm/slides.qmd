@@ -35,26 +35,23 @@ font_add_google(name = slide_font)
 showtext_auto()
 ```
 
-# Background
 
-## What is today about?
+## What is this?
 
-> JDLCC paper; using neighb examples but paper will use life course
+We were invited to write a paper on proper use of **Cross-Lagged Panel Models** (CLPM) for the *Journal of Developmental and Life Course Criminology*^[I'll be using social-ecological examples today though]
 
-> Reviewing common problems in applied work
+&nbsp;
 
-> Aligning theory, models, and estimation
+Our current plan:
 
-> Assume understand basics of conditional ignorability
+* Review common problems in applied work
+* Focus on aligning theory with estimation
+* Suggest robust default practices
 
-## Reciprocality
-
-* Theories sometimes imply reciprocality
-* Also sometimes an empirical problem
-* But pretty much nothing is actually reciprocal; the world is recursive
-* Accordingly, we use DAGs for theory, SEM diagrams for estimation
 
 ## The Cross-Lagged Panel Model
+
+&nbsp;
 
 ```{tikz, fig.ext = "svg"}
 \usetikzlibrary{positioning}
@@ -93,53 +90,28 @@ showtext_auto()
   }
 ```
 
-## Nonrecursive Models
+Cross-lags enforce temporal order to address reciprocality
 
-```{tikz, fig.ext = "svg"}
-\usetikzlibrary{automata,positioning,arrows}
-\definecolor{black}{HTML}{000000}
-\tikzset{
-    > = stealth,
-    every node/.append style = {
-        draw = none
-    },
-    every edge/.style = {
-        draw,
-        ->
-    },
-    hidden/.style = {
-        draw = black,
-        shape = circle,
-        inner sep = 1pt
-    }
-}
-\tikz{
-    \node (x1) at (0,2) {$X_1$};
-    \node (x2) at (2,2) {$X_2$};
-    \node (y1) at (0,0) {$Y_1$};
-    \node (y2) at (2,0) {$Y_2$};
-    \node (ex2) at (2.5,3) {$e_{x2}$};
-    \node (ey2) at (2.5,-1) {$e_{y2}$};
-    \path (x1) edge (x2);
-    \path (y1) edge (y2);
-    \path (ex2) edge (x2);
-    \path (ey2) edge (y2);
-    \path (x2.-105) edge[auto=right,->] (y2.105);
-    \path (y2.75) edge[auto=right,->] (x2.-75);
-    \path (ex2) edge [bend left=45, arrows = <->] (ey2);
-  }
-```
+## Reciprocality
 
-## Mechanisms and time
+Two forms:
 
-* Time enforces recursiveness 
-* Things that appear non-recursive are usually omitting mediators or time
+* Theoretical reciprocality
+* Empirical simultaneity
 
-> Show 5 time DAG, 3 time SEM
+::: {.fragment}
+Our position:
 
-> Do another with a mechanism
+* **The world is recursive**
+   * Reciprocal theory is usually a symptom of ignoring time and/or mechanisms
+* Reciprocality is mainly an empiricla problem
+
+Accordingly, we suggest acyclic graphs for theory and SEM diagrams for estimation
+:::
 
 ## Time DAG
+
+Reality and theory operate at one recursive pace:
 
 ```{tikz, fig.ext = "svg"}
 \usetikzlibrary{positioning}
@@ -192,7 +164,7 @@ showtext_auto()
 
 ## Time Estimator
 
-
+But you observe data---and must estimate models---at another that results in simultaneity:
 
 ```{tikz, fig.ext = "svg"}
 \usetikzlibrary{positioning}
@@ -244,22 +216,71 @@ showtext_auto()
 
 
 
-## Theory
+## Nonrecursive Models
 
-* Make your theory recursive; use a DAG
-* Estimation may requite non-recursive models
+True simultaneous effect models are just a class of this:^[A very assumption-heavy one!]
 
+```{tikz, fig.ext = "svg"}
+\usetikzlibrary{automata,positioning,arrows}
+\definecolor{black}{HTML}{000000}
+\tikzset{
+    > = stealth,
+    every node/.append style = {
+        draw = none
+    },
+    every edge/.style = {
+        draw,
+        ->
+    },
+    hidden/.style = {
+        draw = black,
+        shape = circle,
+        inner sep = 1pt
+    }
+}
+\tikz{
+    \node (x1) at (0,2) {$X_1$};
+    \node (x2) at (2,2) {$X_2$};
+    \node (y1) at (0,0) {$Y_1$};
+    \node (y2) at (2,0) {$Y_2$};
+    \node (ex2) at (2.5,3) {$e_{x2}$};
+    \node (ey2) at (2.5,-1) {$e_{y2}$};
+    \path (x1) edge (x2);
+    \path (y1) edge (y2);
+    \path (ex2) edge (x2);
+    \path (ey2) edge (y2);
+    \path (x2.-105) edge[auto=right,->] (y2.105);
+    \path (y2.75) edge[auto=right,->] (x2.-75);
+    \path (ex2) edge [bend left=45, arrows = <->] (ey2);
+  }
+```
 
+## Theory comes first
 
-# Three common problems
+Clear theory is a prerequisite before specifying an estimator
+
+You should:
+
+* Make your theory recursive
+   * Use a DAG or recursive equation
+   * Include unobserved mechanisms when appropriate
+
+* Use theory to specify estimator
+   * Contemporaneous (fast) vs. lagged (slow) effects in structure
+   * Covariances to address ambiguity and minimize undesirable assumptions
+   * Non-recursive simultaneous equations as last resort
+
+# Three common applied problems
 
 ## Temporal Order
 
-* As illustrated by Vaisey & Miles (2019), if...
+As illustrated by Vaisey & Miles (2019), if...
 
-   * True model: $y = \beta x_t + \alpha_i + e_{it}$
-   * Estimated model: $y = \beta^* x_{t-t} + \alpha_i + e_{it}$
-   * Resulting bias: $E(\beta^*) = -0.5\beta$
+* True model: $y = \beta x_t + \alpha_i + e_{it}$
+* Estimated model: $y = \beta^* x_{t-t} + \alpha_i + e_{it}$
+* Resulting bias: $E(\beta^*) = -0.5\beta$
+
+Incorrect temporal order **can reverse signs**
 
 ## Example paper
 
@@ -421,12 +442,32 @@ Airbnb properties (A)</br>Time-invariant unobservables (U)
 * Consider different time lags or units of analysis
 * Might be nothing you can do
 
-# Advice
+## Feedback and Questions
+
+:::: {.columns}
+::: {.column width="46%"}
+
+**Our advice**
 
 * Theory comes first
+* Separate theory problems from estimation problems
 * Default to robust methods
 
-## Feedback and Questions
+:::
+
+::: {.column width="8%"}
+&nbsp;
+:::
+
+::: {.column width="46%"}
+**What else should we cover?**
+
+* Sequential ignorability
+* Counterfactual causality
+* Predetermined vs. strictly exogenous regressors
+
+:::
+::::
 
 
 Contact:
