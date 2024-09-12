@@ -216,9 +216,9 @@ But you observe data---and must estimate models---at another that results in sim
 
 
 
-## Nonrecursive Models
+## Nonrecursive models
 
-True simultaneous effect models are just a class of this:^[A very assumption-heavy one!]
+True simultaneous effect models are just a class of this:
 
 ```{tikz, fig.ext = "svg"}
 \usetikzlibrary{automata,positioning,arrows}
