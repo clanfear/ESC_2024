@@ -97,21 +97,29 @@ Cross-lags enforce temporal order to address reciprocality
 Two forms:
 
 * Theoretical reciprocality
-* Empirical simultaneity
+* Empirical reciprocality (i.e., simultaneity)
 
-::: {.fragment}
+:::: {.fragment}
 Our position:
 
 * **The world is recursive**
    * Reciprocal theory is usually a symptom of ignoring time and/or mechanisms
-* Reciprocality is mainly an empiricla problem
+* Reciprocality is an empirical problem
 
-Accordingly, we suggest acyclic graphs for theory and SEM diagrams for estimation
+
+::: {.center}
+*We suggest acyclic graphs for theory and SEM diagrams for estimation*
 :::
+
+::::
 
 ## Time DAG
 
+&nbsp;
+
 Reality and theory operate at one recursive pace:
+
+&nbsp;
 
 ```{tikz, fig.ext = "svg"}
 \usetikzlibrary{positioning}
@@ -255,17 +263,19 @@ True simultaneous effect models are just a class of this:
   }
 ```
 
+But they come with **strong** assumptions
+
 ## Theory comes first
 
 Clear theory is a prerequisite before specifying an estimator
 
 You should:
 
-* Make your theory recursive
+* Derive recursive model from theory
    * Use a DAG or recursive equation
    * Include unobserved mechanisms when appropriate
 
-* Use theory to specify estimator
+* Use theoretical model to specify estimator
    * Contemporaneous (fast) vs. lagged (slow) effects in structure
    * Covariances to address ambiguity and minimize undesirable assumptions
    * Non-recursive simultaneous equations as last resort
@@ -274,20 +284,34 @@ You should:
 
 ## Temporal Order
 
+&nbsp;
+
 As illustrated by Vaisey & Miles (2019), if...
 
 * True model: $y = \beta x_t + \alpha_i + e_{it}$
-* Estimated model: $y = \beta^* x_{t-t} + \alpha_i + e_{it}$
+* Estimated model: $y = \beta^* x_{t-1} + \alpha_i + e_{it}$
 * Resulting bias: $E(\beta^*) = -0.5\beta$
 
 Incorrect temporal order **can reverse signs**
 
+
+
 ## Example paper
+
+&nbsp;
+
+![](img/wickes-hipp.png)
+
+&nbsp;
+
+::: {.center}
+*Be **very** suspicious of unexpected reversed signs*
+:::
 
 ## Solutions
 
-* Hard: Use strong theory to get timing right
-* Use robust estimators, e.g., Allison#s approach
+* Use strong theory to get timing right
+* Use robust estimators, e.g., Allison's approach
 * If ambiguous contemporaneous path matters, you'll need strong instrument(s)
 
 ```{tikz allison-2022, fig.ext = 'svg'}
@@ -339,12 +363,18 @@ Incorrect temporal order **can reverse signs**
 ```
 
 
-## Unobserved Heterogeneity
+## Unobserved stable heterogeneity
 
-* Most common concern is stable traits
-* Can't just toss in fixed effects due to Nickell bias
+&nbsp;
+
+* Most common concern is stable traits^[While really the same problem, we generally talk about time-varying confounders differently than time stable ones]
+* Autoregressive term alone does not solve problem
+* Can't just toss in fixed effects due to Nickell bias from endogenous lag
+   * Bias shrinks in proportion to T
+* Generally well-recognized
 
 ## Example: Lanfear & Kirk (2024)
+
 
 
 ```{tikz, fig.ext = "svg", out.width = "100%", fig.width = 12, fig.height = 12}
@@ -410,65 +440,94 @@ Airbnb properties (A)</br>Time-invariant unobservables (U)
 :::
 ::::
 
-::: {.center}
-*Directionality assumptions render model recursive*
-:::
 
 ## Solutions
 
-* Different approaches
-* Psychology approaches: RI-CLPM
-* Econometric approaches: Arellano-Bond, ML-SEM
-   * Also relax strict exogeneity
+&nbsp;
 
-## Low Temporal Variation
+* More robust estimators^[But with their own limitations]
+   * Psychological approaches: RI-CLPM
+      * Still learning these!
+   * Econometric approaches: Arellano-Bond, ML-SEM
+      * Also relax strict exogeneity
+
+::: {.center}
+These solutions commonly lead to our third problem...
+:::
+
+## Low Inter-temporal variation
+
+&nbsp;
 
 * $Var(Y_2|Y_1) \rightarrow 0$ as $\rho(Y_1,Y_2) \rightarrow 1$
-* Error becomes proportionally larger component
-* Common with narrow waves, stable constructs
+* Error and bias become proportionally larger components
+* Common with short observation times and stable constructs
 
 
 ## Example paper
 
-> That neighbs one? Hipp?
+&nbsp;
+
+Sometimes a near-perfect multicollinearity problem:
+
+![](img/steenbeek-hipp.png)
+
+:::{.aside}
+Source: Lanfear et al. (2020)
+:::
 
 ## Solutions
 
-* Error part can be dealt with using measurement models
-  * Should do this anyway as outcomes are regressors, so measurement error attenuates estimates
 * Address during data collection
    * Oversample for change
    * Look for shocks
+* Hybrid Mundlak model
 * Consider different time lags or units of analysis
-* Might be nothing you can do
+* Error can be dealt with using measurement models
+  * Should do this anyway as outcomes are regressors, so measurement error attenuates estimates
+* Give up, go get a pint
 
-## Feedback and Questions
+## Takeaways {.dark-slide}
 
 :::: {.columns}
-::: {.column width="46%"}
+::: {.column width="62%"}
 
 **Our advice**
 
-* Theory comes first
 * Separate theory problems from estimation problems
-* Default to robust methods
+   * Theory comes first
+   * Then clear model
+   * Then estimator
+* Default to robust estimators
 
 :::
 
-::: {.column width="8%"}
+::: {.column width="4%"}
 &nbsp;
 :::
 
-::: {.column width="46%"}
+::: {.column width="34%"}
+
+![](img/estimand-estimator-estimate.png)
+
+
+
+
+
+:::
+::::
+
+:::{.aside}
+Image source: Richard McElreath
+:::
+
+## Feedback and Questions
+
 **What else should we cover?**
 
 * Sequential ignorability
 * Counterfactual causality
 * Predetermined vs. strictly exogenous regressors
-
-:::
-::::
-
 
 Contact:
 
